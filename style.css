@@ -1,0 +1,20 @@
+.btn{
+  display: inline-block;
+  padding: 10px 20px;
+  color: var(--color, #ff0060);
+  background: var(--bg, #000);
+  transition: background .2s;
+  font-family: arial;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 1px 2px 3px #ccc;
+}
+
+.btn:hover{
+  color: var(--bg, #000);
+  background: var(--color, #ff0060);
+}
+.custom{
+  --color: gold;
+  --bg: #000;
+}
